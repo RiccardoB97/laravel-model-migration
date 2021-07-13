@@ -14,7 +14,7 @@ class CreateTravelsTable extends Migration
     public function up()
     {
         Schema::create('travels', function (Blueprint $table) {
-            $table->string('name', 30);
+             $table->string('name', 30);
             $table->text('description')->nullable();
             $table->string('cover_image')->nullable();
             $table->decimal('price', 6,2);

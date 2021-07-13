@@ -12,7 +12,6 @@ class TravelsController extends Controller
     {
 
         $travels = Travel::all();
-        ddd($travels);
         return view('travel', compact('travels'));
     }
 }
