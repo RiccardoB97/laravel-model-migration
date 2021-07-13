@@ -4,7 +4,8 @@ namespace App;
 
 use Illuminate\Database\Eloquent\Model;
 
-class TravelBox extends Model
+class Travel extends Model
 {
     //
+    public $table = 'travels';
 }

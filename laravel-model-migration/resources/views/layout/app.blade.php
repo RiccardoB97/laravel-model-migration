@@ -10,7 +10,10 @@
 </head>
 <body>
     <header id="site_header">
-
+        <nav>
+            <a href="{{route('home')}}">Home</a>
+            <a href="{{route('travel')}}">Travel Boxes</a>
+        </nav>
     </header>
     <main id="site_main">
         @yield('main_content')

@@ -3,15 +3,16 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\TravelBox;
+use App\Travel;
 
-class TravelBoxController extends Controller
+class TravelsController extends Controller
 {
     //
     public function index()
     {
 
-        $travels = TravelBox::all();
+        $travels = Travel::all();
+        ddd($travels);
         return view('travel', compact('travels'));
     }
 }

@@ -16,4 +16,4 @@ use Illuminate\Support\Facades\Route;
 // Page controler
 Route::get('/', 'PageController@index')->name('home');
 
-Route::get('/travel', 'TravelBoxController@index')->name('travel');
+Route::get('/travel', 'TravelsController@index')->name('travel');
