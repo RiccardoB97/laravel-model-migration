@@ -14,4 +14,4 @@ use Illuminate\Support\Facades\Route;
 */
 
 // Page controler
-Route::get('/', 'PageController@index');
+Route::get('/', 'PageController@index')->name('home');
